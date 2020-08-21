@@ -36,5 +36,11 @@
 21. เมื่อกระสุนโดนขอบจอให้ **set Bullet.Visible to**   **false** และทำการ **Moveto** มาที่ฐานและทำการยิงอีกครั้ง
 ![Bullet.Visible](https://www.img.in.th/images/eacc8bd77514b36d2bad6616230f150a.png "Bullet.Visible")
 22. ไปที่หน้า **Designer** ที่ **Properties** ของ **Screen1** และอัพโหลดรูปภาพฉากพื้นหลังทำการกำหนด **BackgroundImage** เป็นรูปภาพฉากพื้นหลัง
+> เพิ่มเติมสำหรับคนที่ต้องการกระสุนสมจริงขึ้นด้วยการนำกระสุนมาติดกับบอล
+
+23. สร้าง ImageSprite ตั้งชื่อว่า ImgBullet อัพโหลดรูปกระสุนและกำหนด Picture เป็นรูปกระสุน 
+24. สร้าง Clock ตั้งชื่อว่า TicBullet กำหนด TimeInterval เป็น 20
+24. ไปที่หน้า Blocks สร้างบล็อกชื่อ TicBullet.Timer และให้ภาพกระสุน(ImgBullet) MoveTo ตาม Bullet ไป
+![TicBullet](https://www.img.in.th/images/350d0688b5ee558f50dd6c3192aadc7d.png "TicBullet")
 
 ### หากจุดใดผมพิมพ์ผิดหรือวิธีการผิดตรงไหนสามารถเปิด issues หรือ แจ้งผมได้เลยนะครับ ขอบคุณครับ
